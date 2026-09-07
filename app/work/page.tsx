@@ -76,7 +76,7 @@ const statusColor: Record<string, string> = {
   Live: "text-emerald-400 bg-emerald-400/10 border-emerald-400/20",
   Deployed: "text-sky-400 bg-sky-400/10 border-sky-400/20",
   Internal: "text-white/40 bg-white/5 border-white/10",
-  "In progress": "text-gold bg-gold/10 border-gold/20",
+  "In progress": "text-blue bg-blue/10 border-blue/20",
 };
 
 export default function WorkPage() {
@@ -88,12 +88,12 @@ export default function WorkPage() {
           className="absolute inset-0 pointer-events-none"
           style={{
             background:
-              "radial-gradient(ellipse 50% 60% at 0% 100%, rgba(201,147,58,0.06) 0%, transparent 60%)",
+              "radial-gradient(ellipse 50% 60% at 0% 100%, rgba(59,130,246,0.06) 0%, transparent 60%)",
           }}
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
           <Reveal>
-            <span className="text-gold text-xs font-mono uppercase tracking-widest block mb-3 sm:mb-4">
+            <span className="text-blue text-xs font-mono uppercase tracking-widest block mb-3 sm:mb-4">
               Work
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white text-balance max-w-xl">
@@ -115,11 +115,11 @@ export default function WorkPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 lg:gap-6">
             {projects.map((project, i) => (
               <Reveal key={project.name} delay={i * 0.07} className="h-full">
-                <div className="bg-surface border border-white/5 rounded-lg p-5 sm:p-6 flex flex-col h-full hover:border-white/12 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-gold/[0.03] transition-all duration-300 group">
+                <div className="bg-surface border border-white/5 rounded-lg p-5 sm:p-6 flex flex-col h-full hover:border-white/12 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue/[0.03] transition-all duration-300 group">
                   {/* Header */}
                   <div className="flex items-start justify-between mb-4 sm:mb-5">
                     <div>
-                      <span className="text-gold text-xs font-mono uppercase tracking-widest block mb-1.5">
+                      <span className="text-blue text-xs font-mono uppercase tracking-widest block mb-1.5">
                         {project.division}
                       </span>
                       <h2 className="text-base sm:text-lg font-bold text-white">{project.name}</h2>
@@ -159,7 +159,7 @@ export default function WorkPage() {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-sm text-gold font-medium hover:text-gold-light transition-colors mt-auto"
+                      className="inline-flex items-center gap-1.5 text-sm text-blue font-medium hover:text-blue-light transition-colors mt-auto"
                     >
                       View project
                       <ArrowRight size={13} weight="bold" />
@@ -187,7 +187,7 @@ export default function WorkPage() {
               </div>
               <Link
                 href="/contact"
-                className="flex-shrink-0 inline-flex items-center gap-2 px-5 sm:px-6 py-3 bg-gold text-ink text-sm font-semibold rounded-md hover:bg-gold-light active:scale-[0.98] transition-all"
+                className="flex-shrink-0 inline-flex items-center gap-2 px-5 sm:px-6 py-3 bg-blue text-white text-sm font-semibold rounded-md hover:bg-blue-light active:scale-[0.98] transition-all"
               >
                 Start a conversation
                 <ArrowRight size={15} weight="bold" />

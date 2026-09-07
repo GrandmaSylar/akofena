@@ -7,7 +7,7 @@ interface AkofenaIconProps {
 export default function AkofenaIcon({
   size = 40,
   className = "",
-  color = "#C9933A",
+  color = "#3b82f6",
 }: AkofenaIconProps) {
   return (
     <svg

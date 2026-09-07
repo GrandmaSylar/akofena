@@ -8,24 +8,34 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        gold: {
-          DEFAULT: "#C9933A",
-          light: "#D4A855",
-          dark: "#A67A2A",
-          muted: "#8B6525",
-          faint: "rgba(201,147,58,0.08)",
+        // Primary accent — Aura's blue (electric, readable on dark)
+        blue: {
+          DEFAULT: "#3b82f6",
+          light: "#60a5fa",
+          dark: "#1d4ed8",
+          muted: "#1e3a5f",
+          faint: "rgba(59,130,246,0.08)",
         },
-        ink: "#0a0a0a",
+        // Secondary accent — PhiNova's steel
+        steel: {
+          DEFAULT: "#6E97C0",
+          light: "#93b8d9",
+          dark: "#4D7AA8",
+        },
+        // Background — deep navy-black (PhiNova night mode meets Aura dark)
+        ink: "#06111e",
         surface: {
-          DEFAULT: "#111111",
-          2: "#161616",
-          3: "#1e1e1e",
-          4: "#252525",
+          DEFAULT: "#0b1829",
+          2: "#0e1e32",
+          3: "#13263d",
+          4: "#182f49",
         },
         border: {
-          DEFAULT: "#2a2a2a",
-          subtle: "rgba(255,255,255,0.06)",
+          DEFAULT: "#1c3351",
+          subtle: "rgba(110,151,192,0.12)",
         },
+        // Canvas — PhiNova's warm off-white for body text
+        canvas: "#F2F1EE",
       },
       fontFamily: {
         sans: ["var(--font-geist-sans)", "system-ui", "sans-serif"],
@@ -35,8 +45,8 @@ const config: Config = {
         widest: "0.18em",
       },
       backgroundImage: {
-        "grid-gold":
-          "linear-gradient(rgba(201,147,58,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(201,147,58,0.04) 1px, transparent 1px)",
+        "grid-blue":
+          "linear-gradient(rgba(59,130,246,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.04) 1px, transparent 1px)",
       },
       backgroundSize: {
         "grid-60": "60px 60px",

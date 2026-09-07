@@ -37,10 +37,10 @@ export default function HomePage() {
         className="relative min-h-[100dvh] flex flex-col justify-center pt-16 overflow-hidden"
         style={{
           background:
-            "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(201,147,58,0.10) 0%, transparent 70%), #0a0a0a",
+            "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(59,130,246,0.14) 0%, transparent 70%), #06111e",
           backgroundImage:
-            "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(201,147,58,0.10) 0%, transparent 70%)",
-          backgroundColor: "#0a0a0a",
+            "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(59,130,246,0.14) 0%, transparent 70%)",
+          backgroundColor: "#06111e",
         }}
       >
         {/* Grid texture */}
@@ -48,21 +48,21 @@ export default function HomePage() {
           className="absolute inset-0 pointer-events-none"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(201,147,58,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(201,147,58,0.035) 1px, transparent 1px)",
+              "linear-gradient(rgba(59,130,246,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.035) 1px, transparent 1px)",
             backgroundSize: "60px 60px",
           }}
         />
 
         {/* Watermark icon */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
-          <AkofenaIcon size={280} color="rgba(201,147,58,0.04)" className="sm:hidden" />
-          <AkofenaIcon size={420} color="rgba(201,147,58,0.04)" className="hidden sm:block" />
+          <AkofenaIcon size={280} color="rgba(59,130,246,0.04)" className="sm:hidden" />
+          <AkofenaIcon size={420} color="rgba(59,130,246,0.04)" className="hidden sm:block" />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-24">
           <div className="max-w-3xl">
             <Reveal delay={0.1}>
-              <span className="inline-block text-gold text-xs font-mono uppercase tracking-widest mb-5 sm:mb-6">
+              <span className="inline-block text-blue text-xs font-mono uppercase tracking-widest mb-5 sm:mb-6">
                 Akofena
               </span>
             </Reveal>
@@ -70,7 +70,7 @@ export default function HomePage() {
             <Reveal delay={0.2}>
               <h1 className="text-[2.25rem] sm:text-5xl md:text-7xl font-bold tracking-tight leading-[1.05] sm:leading-[1.02] text-white mb-5 sm:mb-6 text-balance">
                 Built for Africa.{" "}
-                <span className="text-gold">Built to last.</span>
+                <span className="text-blue">Built to last.</span>
               </h1>
             </Reveal>
 
@@ -84,7 +84,7 @@ export default function HomePage() {
               <div className="flex flex-wrap items-center gap-3 sm:gap-4">
                 <Link
                   href="/divisions"
-                  className="inline-flex items-center gap-2 px-5 sm:px-6 py-3 bg-gold text-ink text-sm font-semibold rounded-md hover:bg-gold-light active:scale-[0.98] transition-all"
+                  className="inline-flex items-center gap-2 px-5 sm:px-6 py-3 bg-blue text-white text-sm font-semibold rounded-md hover:bg-blue-light active:scale-[0.98] transition-all"
                 >
                   Explore divisions
                   <ArrowRight size={15} weight="bold" />
@@ -118,10 +118,10 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
             {/* PhiNova */}
             <Reveal delay={0.1} className="h-full">
-              <div className="group relative bg-surface border border-white/5 rounded-lg p-6 sm:p-8 hover:border-gold/20 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-gold/[0.04] transition-all duration-300 flex flex-col h-full">
+              <div className="group relative bg-surface border border-white/5 rounded-lg p-6 sm:p-8 hover:border-blue/20 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue/[0.04] transition-all duration-300 flex flex-col h-full">
                 <div className="flex items-start justify-between mb-5 sm:mb-6">
                   <div>
-                    <span className="text-gold text-xs font-mono uppercase tracking-widest block mb-2">
+                    <span className="text-blue text-xs font-mono uppercase tracking-widest block mb-2">
                       Software Division
                     </span>
                     <h3 className="text-xl sm:text-2xl font-bold text-white">PhiNova</h3>
@@ -149,7 +149,7 @@ export default function HomePage() {
                   href="https://phinova.dev"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-gold font-medium hover:text-gold-light transition-colors group/link mt-auto"
+                  className="inline-flex items-center gap-1.5 text-sm text-blue font-medium hover:text-blue-light transition-colors group/link mt-auto"
                 >
                   Explore PhiNova
                   <ArrowUpRight size={15} weight="bold" className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
@@ -159,10 +159,10 @@ export default function HomePage() {
 
             {/* AuraTech */}
             <Reveal delay={0.2} className="h-full">
-              <div className="group relative bg-surface border border-white/5 rounded-lg p-6 sm:p-8 hover:border-gold/20 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-gold/[0.04] transition-all duration-300 flex flex-col h-full">
+              <div className="group relative bg-surface border border-white/5 rounded-lg p-6 sm:p-8 hover:border-blue/20 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue/[0.04] transition-all duration-300 flex flex-col h-full">
                 <div className="flex items-start justify-between mb-5 sm:mb-6">
                   <div>
-                    <span className="text-gold text-xs font-mono uppercase tracking-widest block mb-2">
+                    <span className="text-blue text-xs font-mono uppercase tracking-widest block mb-2">
                       Services Division
                     </span>
                     <h3 className="text-xl sm:text-2xl font-bold text-white">AuraTech Solutions</h3>
@@ -190,7 +190,7 @@ export default function HomePage() {
                   href="https://auratechsolutionsgh.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-gold font-medium hover:text-gold-light transition-colors group/link mt-auto"
+                  className="inline-flex items-center gap-1.5 text-sm text-blue font-medium hover:text-blue-light transition-colors group/link mt-auto"
                 >
                   Explore AuraTech
                   <ArrowUpRight size={15} weight="bold" className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
@@ -207,7 +207,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <Reveal direction="left">
               <div>
-                <span className="gold-line mb-6" />
+                <span className="accent-line mb-6" />
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white mb-5 sm:mb-6 text-balance">
                   Technology that works in the environments our clients actually operate in.
                 </h2>
@@ -236,8 +236,8 @@ export default function HomePage() {
                   },
                 ].map(({ title, body }, i) => (
                   <div key={title} className="flex gap-4 sm:gap-5">
-                    <div className="flex-shrink-0 w-6 h-6 rounded-full border border-gold/30 flex items-center justify-center mt-0.5">
-                      <span className="text-gold text-xs font-mono">{i + 1}</span>
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full border border-blue/30 flex items-center justify-center mt-0.5">
+                      <span className="text-blue text-xs font-mono">{i + 1}</span>
                     </div>
                     <div>
                       <p className="text-white font-semibold text-sm mb-1.5">{title}</p>
@@ -264,7 +264,7 @@ export default function HomePage() {
               </div>
               <Link
                 href="/work"
-                className="hidden sm:inline-flex items-center gap-1.5 text-sm text-gold font-medium hover:text-gold-light transition-colors flex-shrink-0 ml-4"
+                className="hidden sm:inline-flex items-center gap-1.5 text-sm text-blue font-medium hover:text-blue-light transition-colors flex-shrink-0 ml-4"
               >
                 All projects
                 <ArrowRight size={14} weight="bold" />
@@ -277,7 +277,7 @@ export default function HomePage() {
               <Reveal key={project.name} delay={i * 0.1} className="h-full">
                 <div className="bg-surface border border-white/5 rounded-lg p-5 sm:p-6 flex flex-col h-full">
                   <div className="flex items-center justify-between mb-3 sm:mb-4">
-                    <span className="text-gold text-xs font-mono uppercase tracking-widest">
+                    <span className="text-blue text-xs font-mono uppercase tracking-widest">
                       {project.division}
                     </span>
                   </div>
@@ -300,7 +300,7 @@ export default function HomePage() {
           <div className="sm:hidden mt-8">
             <Link
               href="/work"
-              className="inline-flex items-center gap-1.5 text-sm text-gold font-medium hover:text-gold-light transition-colors"
+              className="inline-flex items-center gap-1.5 text-sm text-blue font-medium hover:text-blue-light transition-colors"
             >
               See all work
               <ArrowRight size={14} weight="bold" />
@@ -314,7 +314,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Reveal>
             <div className="max-w-2xl">
-              <span className="gold-line mb-6" />
+              <span className="accent-line mb-6" />
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white mb-4 sm:mb-5 text-balance">
                 Have a project or need support?
               </h2>
@@ -324,7 +324,7 @@ export default function HomePage() {
               </p>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-5 sm:px-6 py-3 bg-gold text-ink text-sm font-semibold rounded-md hover:bg-gold-light active:scale-[0.98] transition-all"
+                className="inline-flex items-center gap-2 px-5 sm:px-6 py-3 bg-blue text-white text-sm font-semibold rounded-md hover:bg-blue-light active:scale-[0.98] transition-all"
               >
                 Start a conversation
                 <ArrowRight size={15} weight="bold" />

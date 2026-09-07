@@ -13,7 +13,7 @@ const subjects = [
 ];
 
 const inputClass =
-  "w-full bg-surface-3 border border-white/10 rounded-sm px-4 py-3 text-sm text-white placeholder-white/25 focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/20 transition-colors";
+  "w-full bg-surface-3 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-white/25 focus:outline-none focus:border-blue/50 focus:ring-1 focus:ring-blue/20 transition-colors";
 
 export default function ContactForm() {
   const [form, setForm] = useState({
@@ -44,9 +44,9 @@ export default function ContactForm() {
 
   if (status === "success") {
     return (
-      <div className="flex flex-col items-center justify-center text-center py-16 px-8 bg-surface-2 border border-white/5 rounded-sm">
-        <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mb-4">
-          <PaperPlaneTilt size={22} weight="bold" className="text-gold" />
+      <div className="flex flex-col items-center justify-center text-center py-16 px-8 bg-surface-2 border border-white/5 rounded-lg">
+        <div className="w-12 h-12 rounded-full bg-blue/10 flex items-center justify-center mb-4">
+          <PaperPlaneTilt size={22} weight="bold" className="text-blue" />
         </div>
         <p className="text-white font-semibold mb-2">Message received.</p>
         <p className="text-white/50 text-sm">
@@ -135,7 +135,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="flex items-center gap-2.5 px-6 py-3 bg-gold text-ink text-sm font-semibold rounded-sm hover:bg-gold-light active:scale-[0.98] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+        className="flex items-center gap-2.5 px-6 py-3 bg-blue text-white text-sm font-semibold rounded-md hover:bg-blue-light active:scale-[0.98] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {status === "loading" ? (
           "Sending..."

@@ -60,7 +60,7 @@ export default function Navbar() {
                 href={href}
                 className={`text-sm font-medium transition-colors duration-150 ${
                   pathname === href
-                    ? "text-gold"
+                    ? "text-blue"
                     : "text-white/60 hover:text-white"
                 }`}
               >
@@ -73,7 +73,7 @@ export default function Navbar() {
         {/* Desktop CTA */}
         <Link
           href="/contact"
-          className="hidden md:inline-flex items-center px-5 py-2 bg-gold text-ink text-sm font-semibold rounded-md hover:bg-gold-light transition-colors duration-150 active:scale-[0.98]"
+          className="hidden md:inline-flex items-center px-5 py-2 bg-blue text-white text-sm font-semibold rounded-md hover:bg-blue-light transition-colors duration-150 active:scale-[0.98]"
         >
           Work with us
         </Link>
@@ -98,7 +98,7 @@ export default function Navbar() {
                 <Link
                   href={href}
                   className={`text-base font-medium block py-3 transition-colors border-b border-white/[0.04] last:border-0 ${
-                    pathname === href ? "text-gold" : "text-white/70 hover:text-white"
+                    pathname === href ? "text-blue" : "text-white/70 hover:text-white"
                   }`}
                 >
                   {label}
@@ -108,7 +108,7 @@ export default function Navbar() {
             <li className="pt-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center px-5 py-2.5 bg-gold text-ink text-sm font-semibold rounded-md hover:bg-gold-light transition-colors"
+                className="inline-flex items-center px-5 py-2.5 bg-blue text-white text-sm font-semibold rounded-md hover:bg-blue-light transition-colors"
               >
                 Work with us
               </Link>

@@ -22,7 +22,7 @@ export default function ContactPage() {
       <section className="relative pt-28 sm:pt-32 pb-12 sm:pb-16 bg-ink border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Reveal>
-            <span className="text-gold text-xs font-mono uppercase tracking-widest block mb-3 sm:mb-4">
+            <span className="text-blue text-xs font-mono uppercase tracking-widest block mb-3 sm:mb-4">
               Contact
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white text-balance max-w-xl">
@@ -56,7 +56,7 @@ export default function ContactPage() {
                     <h2 className="text-lg sm:text-xl font-bold text-white mb-5 sm:mb-6">Contact details</h2>
                     <div className="flex items-start gap-3 sm:gap-4">
                       <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <MapPin size={16} weight="bold" className="text-gold" />
+                        <MapPin size={16} weight="bold" className="text-blue" />
                       </div>
                       <div>
                         <p className="text-xs text-white/30 mb-0.5">Location</p>
@@ -67,7 +67,7 @@ export default function ContactPage() {
 
                   {/* PhiNova Division */}
                   <div className="border-t border-white/5 pt-6 sm:pt-8">
-                    <p className="text-xs text-gold font-mono uppercase tracking-widest mb-4 sm:mb-5">
+                    <p className="text-xs text-blue font-mono uppercase tracking-widest mb-4 sm:mb-5">
                       PhiNova — Software Division
                     </p>
                     <div className="space-y-3 sm:space-y-4">
@@ -75,8 +75,8 @@ export default function ContactPage() {
                         href="mailto:info@phinova.dev"
                         className="flex items-start gap-3 sm:gap-4 group"
                       >
-                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-gold/25 transition-colors">
-                          <Envelope size={16} weight="bold" className="text-gold" />
+                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-blue/25 transition-colors">
+                          <Envelope size={16} weight="bold" className="text-blue" />
                         </div>
                         <div>
                           <p className="text-xs text-white/30 mb-0.5">Email</p>
@@ -90,8 +90,8 @@ export default function ContactPage() {
                         href="tel:+233204906780"
                         className="flex items-start gap-3 sm:gap-4 group"
                       >
-                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-gold/25 transition-colors">
-                          <Phone size={16} weight="bold" className="text-gold" />
+                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-blue/25 transition-colors">
+                          <Phone size={16} weight="bold" className="text-blue" />
                         </div>
                         <div>
                           <p className="text-xs text-white/30 mb-0.5">Phone</p>
@@ -105,7 +105,7 @@ export default function ContactPage() {
                         href="https://phinova.dev"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-xs text-gold/60 hover:text-gold transition-colors block pl-[48px] sm:pl-[52px]"
+                        className="text-xs text-blue/60 hover:text-blue transition-colors block pl-[48px] sm:pl-[52px]"
                       >
                         phinova.dev
                       </a>
@@ -114,7 +114,7 @@ export default function ContactPage() {
 
                   {/* AuraTech Division */}
                   <div className="border-t border-white/5 pt-6 sm:pt-8">
-                    <p className="text-xs text-gold font-mono uppercase tracking-widest mb-4 sm:mb-5">
+                    <p className="text-xs text-blue font-mono uppercase tracking-widest mb-4 sm:mb-5">
                       AuraTech Solutions — Services Division
                     </p>
                     <div className="space-y-3 sm:space-y-4">
@@ -122,8 +122,8 @@ export default function ContactPage() {
                         href="mailto:auratech99solutions@gmail.com"
                         className="flex items-start gap-3 sm:gap-4 group"
                       >
-                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-gold/25 transition-colors">
-                          <Envelope size={16} weight="bold" className="text-gold" />
+                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-blue/25 transition-colors">
+                          <Envelope size={16} weight="bold" className="text-blue" />
                         </div>
                         <div>
                           <p className="text-xs text-white/30 mb-0.5">Email</p>
@@ -139,8 +139,8 @@ export default function ContactPage() {
                         rel="noopener noreferrer"
                         className="flex items-start gap-3 sm:gap-4 group"
                       >
-                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-gold/25 transition-colors">
-                          <WhatsappLogo size={16} weight="bold" className="text-gold" />
+                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-blue/25 transition-colors">
+                          <WhatsappLogo size={16} weight="bold" className="text-blue" />
                         </div>
                         <div>
                           <p className="text-xs text-white/30 mb-0.5">WhatsApp (primary)</p>
@@ -156,8 +156,8 @@ export default function ContactPage() {
                         rel="noopener noreferrer"
                         className="flex items-start gap-3 sm:gap-4 group"
                       >
-                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-gold/25 transition-colors">
-                          <WhatsappLogo size={16} weight="bold" className="text-gold" />
+                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-blue/25 transition-colors">
+                          <WhatsappLogo size={16} weight="bold" className="text-blue" />
                         </div>
                         <div>
                           <p className="text-xs text-white/30 mb-0.5">WhatsApp (alternative)</p>
@@ -169,7 +169,7 @@ export default function ContactPage() {
 
                       <div className="flex items-start gap-3 sm:gap-4">
                         <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5">
-                          <Phone size={16} weight="bold" className="text-gold" />
+                          <Phone size={16} weight="bold" className="text-blue" />
                         </div>
                         <div>
                           <p className="text-xs text-white/30 mb-0.5">Phone lines</p>
@@ -193,8 +193,8 @@ export default function ContactPage() {
                         rel="noopener noreferrer"
                         className="flex items-start gap-3 sm:gap-4 group"
                       >
-                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-gold/25 transition-colors">
-                          <SnapchatLogo size={16} weight="bold" className="text-gold" />
+                        <div className="w-9 h-9 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:border-blue/25 transition-colors">
+                          <SnapchatLogo size={16} weight="bold" className="text-blue" />
                         </div>
                         <div>
                           <p className="text-xs text-white/30 mb-0.5">Snapchat</p>
@@ -208,7 +208,7 @@ export default function ContactPage() {
                         href="https://auratechsolutionsgh.org"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-xs text-gold/60 hover:text-gold transition-colors block pl-[48px] sm:pl-[52px]"
+                        className="text-xs text-blue/60 hover:text-blue transition-colors block pl-[48px] sm:pl-[52px]"
                       >
                         auratechsolutionsgh.org
                       </a>

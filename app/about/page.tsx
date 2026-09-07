@@ -51,12 +51,12 @@ export default function AboutPage() {
           className="absolute inset-0 pointer-events-none"
           style={{
             background:
-              "radial-gradient(ellipse 60% 60% at 100% 0%, rgba(201,147,58,0.07) 0%, transparent 60%)",
+              "radial-gradient(ellipse 60% 60% at 100% 0%, rgba(59,130,246,0.07) 0%, transparent 60%)",
           }}
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
           <Reveal>
-            <span className="text-gold text-xs font-mono uppercase tracking-widest block mb-3 sm:mb-4">
+            <span className="text-blue text-xs font-mono uppercase tracking-widest block mb-3 sm:mb-4">
               About
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white text-balance">
@@ -72,12 +72,12 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <Reveal direction="left">
               <div className="flex flex-col items-start">
-                <div className="mb-6 sm:mb-8 p-6 sm:p-8 bg-surface-3 border border-gold/15 rounded-lg self-start">
+                <div className="mb-6 sm:mb-8 p-6 sm:p-8 bg-surface-3 border border-blue/15 rounded-lg self-start">
                   <AkofenaIcon size={64} className="sm:hidden" />
                   <AkofenaIcon size={80} className="hidden sm:block" />
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 sm:mb-4">Akofena</h2>
-                <p className="text-gold text-xs sm:text-sm font-mono uppercase tracking-widest mb-3 sm:mb-4">
+                <p className="text-blue text-xs sm:text-sm font-mono uppercase tracking-widest mb-3 sm:mb-4">
                   Adinkra symbol of the sword
                 </p>
                 <p className="text-white/55 leading-relaxed text-sm sm:text-base">
@@ -113,7 +113,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl">
             <Reveal>
-              <span className="gold-line mb-5 sm:mb-6" />
+              <span className="accent-line mb-5 sm:mb-6" />
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white mb-6 sm:mb-8">
                 Our story
               </h2>
@@ -186,7 +186,7 @@ export default function AboutPage() {
               <Reveal key={name} delay={i * 0.1}>
                 <div className="bg-surface border border-white/5 rounded-lg p-5 sm:p-6">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-lg bg-surface-3 border border-white/8 flex items-center justify-center mb-4 sm:mb-5">
-                    <span className="text-gold font-bold text-base sm:text-lg font-mono">{initials}</span>
+                    <span className="text-blue font-bold text-base sm:text-lg font-mono">{initials}</span>
                   </div>
                   <p className="text-white font-semibold mb-1 text-sm sm:text-base">{name}</p>
                   <p className="text-white/40 text-xs sm:text-sm">{role}</p>
@@ -200,7 +200,7 @@ export default function AboutPage() {
                 <p className="text-white/30 text-sm mb-1">We are growing.</p>
                 <Link
                   href="/contact"
-                  className="text-gold text-sm font-medium hover:text-gold-light transition-colors inline-flex items-center gap-1.5 mt-2"
+                  className="text-blue text-sm font-medium hover:text-blue-light transition-colors inline-flex items-center gap-1.5 mt-2"
                 >
                   Get in touch
                   <ArrowRight size={13} weight="bold" />
